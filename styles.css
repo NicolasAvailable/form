@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top right, #131086, #b621f3);
+    padding: 40px;
+    height: 657px;
+}
+
+.forms{
+    display: flex;
+    margin-top: 40px;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    width: 395px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #000000;
+    border-radius: 11px;
+    box-shadow: 0px 0px 7px #424242;
+}
+
+.form-header{
+    width: auto;
+    padding-top: 50px;
+    padding-bottom: 28px;
+}
+
+.form-header > h1{
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-header > p{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 16px;
+    margin-top: -8px;
+    padding-left: 30px;
+    color: #bbb;
+}
+
+.form-heart{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 25px;
+}
+
+.form-name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 16px;
+}
+
+.form-age{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-buttom{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 45px;
+}
+
+.btn{
+    width: 336px;
+    border-radius: 17px;
+    height: 31px;
+    background: linear-gradient(45deg,  #ca5df5, #131086);
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    border: 0px;
+}
+
+
+.sign-password{
+    display: flex;
+    width: 346px;
+    margin-top: 16px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.form-password{
+    padding-right: 50px;
+}
+
+.form-password > a{
+    text-decoration: none;
+}
+
+.form-sign-in > a{
+    text-decoration: none;
+}
+
+
+
+input[type="text"],
+input[type="password"]{
+    width: 336px;
+    border-radius: 17px;
+    padding-left: 11px;
+    height: 48px;
+    border: 1px solid black;
+}
+
+label{
+    display: inline-block;
+    background-color: white;
+    margin-bottom: 10px;
+    position: absolute;
+    transform: translate(23px, -13px);
+}
